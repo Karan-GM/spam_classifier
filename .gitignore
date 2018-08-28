@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+*.pyc
+spam_classifier/__pycache__
+spam_classifier/__pycache__/*
+venv

@@ -1,5 +1,5 @@
-from spam_classifier.spam_classifier_userwords import Spam_Classifier_Userwords
-from spam_classifier.spam_classifier_unigrams import Spam_Classifier_Unigrams
+from spam_classifier_userwords import Spam_Classifier_Userwords
+from spam_classifier_unigrams import Spam_Classifier_Unigrams
 
 class App():
 

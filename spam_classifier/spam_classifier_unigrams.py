@@ -1,10 +1,10 @@
-import spam_classifier.settings as settings
-from spam_classifier.es import Es
+import settings as settings
+from es import Es
 import timeit
-import spam_classifier.util as util
+import util as util
 from scipy.sparse import dok_matrix
 import numpy as np
-import spam_classifier.ml_models as ml_models
+import ml_models as ml_models
 
 class Spam_Classifier_Unigrams():
 

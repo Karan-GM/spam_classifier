@@ -1,9 +1,9 @@
-from spam_classifier.spamwords import Spamwords
-import spam_classifier.settings as settings
-from spam_classifier.es import Es
+from spamwords import Spamwords
+import settings as settings
+from es import Es
 import timeit
 import pandas as pd
-import spam_classifier.ml_models as ml_models
+import ml_models as ml_models
 
 class Spam_Classifier_Userwords():
 

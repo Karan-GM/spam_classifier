@@ -1,7 +1,7 @@
 import glob
 from bs4 import BeautifulSoup
-from spam_classifier.es import Es
-import spam_classifier.settings as settings
+from es import Es
+import settings as settings
 import timeit
 import re
 import string

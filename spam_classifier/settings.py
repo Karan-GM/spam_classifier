@@ -1,6 +1,5 @@
 hosts = ['127.0.0.1']
 
-# index_name = "spam_classifier"
 index_name = "spam_dataset"
 
 index_type = "document"

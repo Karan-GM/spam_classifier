@@ -62,7 +62,7 @@ PUT spam_dataset/document/_mapping
 3. Clone the repository<br/>
 	  * git clone https://github.com/Karan-GM/spam_classifier.git<br/>
 
-4. Cd into the directory<br/>
+4. cd into the directory<br/>
 	  * cd spam_classifier<br/>
 
 5. Install Virtual environment tool<br/> 
@@ -77,8 +77,11 @@ PUT spam_dataset/document/_mapping
 8. Install the libraries from requirements file<br/> 
 	  * pip install -r requirements.txt<br/>
 
+9. cd into source folder
+	  * cd spam_classifier<br/>
+
 9. Insert all the documents into elasticsearch<br/> 
-	  * python spam_classifier/trec07p.py<br/> 
+	  * python trec07p.py<br/> 
     
 10. Run the program
-    * python spam_classifier/app.py<br/> 
+    * python app.py<br/> 
